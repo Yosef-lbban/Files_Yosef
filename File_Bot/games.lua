@@ -2,26 +2,26 @@ local function games(msg)
 local text = msg.content_.text_
 if text == 'الالعاب' and database:get(bot_id..'Lock:Games'..msg.chat_id_) then
 Text_Games = [[
-*⟐︙اوامر الالعاب كتالي* 
-*𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
- *⟐︙تفعيل الالعاب • لتفعيل العبه °* 
- *⟐︙تعطيل الالعاب • لتعطيل العبه °*
-*𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
- *⟐︙الالعاب الخاصه بسورس*
-*𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
- *⟐︙لعبه البات ↞ لعبة المحيبس* 
- *⟐︙لعبه التخمين ↞ لعبة البحث*
- *⟐︙لعبه الاسرع ↞ لعبة اسرع شخص*
- *⟐︙لعبه السمايلات ↞ لعبة المطابقه* 
- *⟐︙لعبه المختلف ↞ لعبة الذكاء*
- *⟐︙لعبه الرياضيات ↞ لعبة الارقام*
- *⟐︙لعبه الانكليزي ↞ لعبة ترجمه*
- *⟐︙لعبه الامثله ↞ لعبة تصحيح* 
- *⟐︙لعبه العكس ↞ لعبة عكس الكلمات*
- *⟐︙لعبه الحزوره ↞لعبة التفكير*
- *⟐︙لعبه المعاني ↞ العبه الشهيره* 
-*𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[Yousef](t.me/Yousef_Labban)
+*☆:اوامر الالعاب كتالي* 
+*ᑅ══•═══ᑅ ÇUKUR ᑀ══•═══ᑀ*
+ *☆:تفعيل الالعاب • لتفعيل العبه °* 
+ *☆:تعطيل الالعاب • لتعطيل العبه °*
+*ᑅ══•═══ᑅ ÇUKUR ᑀ══•═══ᑀ*
+ *☆:الالعاب الخاصه بسورس*
+*ᑅ══•═══ᑅ ÇUKUR ᑀ══•═══ᑀ*
+ *☆:لعبه البات ↞ لعبة المحيبس* 
+ *☆:لعبه التخمين ↞ لعبة البحث*
+ *☆:لعبه الاسرع ↞ لعبة اسرع شخص*
+ *☆:لعبه السمايلات ↞ لعبة المطابقه* 
+ *☆:لعبه المختلف ↞ لعبة الذكاء*
+ *☆:لعبه الرياضيات ↞ لعبة الارقام*
+ *☆:لعبه الانكليزي ↞ لعبة ترجمه*
+ *☆:لعبه الامثله ↞ لعبة تصحيح* 
+ *☆:لعبه العكس ↞ لعبة عكس الكلمات*
+ *☆:لعبه الحزوره ↞لعبة التفكير*
+ *☆:لعبه المعاني ↞ العبه الشهيره* 
+*ᑅ══•═══ᑅ ÇUKUR ᑀ══•═══ᑀ*
+[ÇUKUR](t.me/CXRCX)
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
@@ -32,13 +32,13 @@ database:del(bot_id..'Set:Sma'..msg.chat_id_)
 Random = {'🍏','🍎','🍐','🍊','??','🍉','🍇','🍓','🍈','🍒','🍑','🍍','??','🥝','🍅','🍆','🥑','🥦','🥒','🌶','🌽','🥕','🥔','🥖','🥐','🍞','🥨','🍟','🧀','🥚','🍳','🥓','🥩','🍗','🍖','🌭','🍔','🍠','🍕','🥪','🥙','☕️','🍵','🥤','🍶','🍺','🍻','🏀','⚽️','🏈','⚾️','🎾','🏐','🏉','🎱','🏓','🏸','🥅','🎰','🎮','🎳','🎯','🎲','🎻','🎸','🎺','🥁','🎹','🎼','🎧','🎤','🎬','🎨','🎭','🎪','🎟','🎫','🎗','🏵','🎖','🏆','🥌','🛷','🚗','🚌','🏎','🚓','🚑','🚚','🚛','🚜','🇮🇶','⚔','🛡','🔮','🌡','💣','📌','📍','📓','📗','📂','📅','📪','📫','📬','📭','⏰','📺','🎚','☎️','📡'}
 SM = Random[math.random(#Random)]
 database:set(bot_id..'Random:Sm'..msg.chat_id_,SM)
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يدز هاذا السمايل ?* » {`'..SM..'`}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يدز هاذا السمايل ?* » {`'..SM..'`}')
 return false
 end
 end
 if text == ''..(database:get(bot_id..'Random:Sm'..msg.chat_id_) or '')..'' and not database:get(bot_id..'Set:Sma'..msg.chat_id_) then
 if not database:get(bot_id..'Set:Sma'..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ سمايل , سمايلات }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ سمايل , سمايلات }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Sma'..msg.chat_id_,true)
@@ -90,14 +90,14 @@ name = string.gsub(name,'حاسوب','س ا ح و ب')
 name = string.gsub(name,'انترنيت','ا ت ن ر ن ي ت')
 name = string.gsub(name,'ساحه','ح ا ه س')
 name = string.gsub(name,'جسر','ر ج س')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يرتبها* » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يرتبها* » {'..name..'}')
 return false
 end
 end
 ------------------------------------------------------------------------
 if text == ''..(database:get(bot_id..'Klam:Speed'..msg.chat_id_) or '')..'' and not database:get(bot_id..'Speed:Tr'..msg.chat_id_) then
 if not database:get(bot_id..'Speed:Tr'..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ الاسرع , ترتيب }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ الاسرع , ترتيب }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Speed:Tr'..msg.chat_id_,true)
@@ -142,14 +142,14 @@ name = string.gsub(name,'الثلج','انا ابن الماء فان تركون
 name = string.gsub(name,'الاسفنج','كلي ثقوب ومع ذالك احفض الماء فمن اكون ؟')
 name = string.gsub(name,'الصوت','اسير بلا رجلين ولا ادخل الا بالاذنين فمن انا ؟')
 name = string.gsub(name,'بلم','حامل ومحمول نصف ناشف ونصف مبلول فمن اكون ؟ ')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يحل الحزوره* ↓\n {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يحل الحزوره* ↓\n {'..name..'}')
 return false
 end
 end
 ------------------------------------------------------------------------
 if text == ''..(database:get(bot_id..'Klam:Hzor'..msg.chat_id_) or '')..'' and not database:get(bot_id..'Set:Hzora'..msg.chat_id_) then
 if not database:get(bot_id..'Set:Hzora'..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ حزوره }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ حزوره }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Hzora'..msg.chat_id_,true)
@@ -186,14 +186,14 @@ name = string.gsub(name,'زرافه','🦒')
 name = string.gsub(name,'قنفذ','🦔')
 name = string.gsub(name,'تفاحه','🍎')
 name = string.gsub(name,'باذنجان','🍆')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يدز معنى السمايل* » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يدز معنى السمايل* » {'..name..'}')
 return false
 end
 end
 ------------------------------------------------------------------------
 if text == ''..(database:get(bot_id..'Maany'..msg.chat_id_) or '')..'' and not database:get(bot_id..'Set:Maany'..msg.chat_id_) then
 if not database:get(bot_id..'Set:Maany'..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ معاني }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ معاني }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Maany'..msg.chat_id_,true)
@@ -229,14 +229,14 @@ name = string.gsub(name,'موعطشان','عطشان')
 name = string.gsub(name,'خوش ولد','موخوش ولد')
 name = string.gsub(name,'اني','مطي')
 name = string.gsub(name,'هادئ','عصبي')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يدز العكس* » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يدز العكس* » {'..name..'}')
 return false
 end
 end
 ------------------------------------------------------------------------
 if text == ''..(database:get(bot_id..'Set:Aks:Game'..msg.chat_id_) or '')..'' and not database:get(bot_id..'Set:Aks'..msg.chat_id_) then
 if not database:get(bot_id..'Set:Aks'..msg.chat_id_) then 
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ العكس }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ العكس }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Aks'..msg.chat_id_,true)
@@ -246,22 +246,22 @@ if database:get(bot_id.."GAME:TKMEN" .. msg.chat_id_ .. "" .. msg.sender_user_id
 if text and text:match("^(%d+)$") then
 local NUM = text:match("^(%d+)$")
 if tonumber(NUM) > 20 then
-send(msg.chat_id_, msg.id_," ⟐︙عذرآ لا يمكنك تخمين عدد اكبر من ال { 20 } خمن رقم ما بين ال{ 1 و 20 }\n")
+send(msg.chat_id_, msg.id_," ☆:عذرآ لا يمكنك تخمين عدد اكبر من ال { 20 } خمن رقم ما بين ال{ 1 و 20 }\n")
 return false  end 
 local GETNUM = database:get(bot_id.."GAMES:NUM"..msg.chat_id_)
 if tonumber(NUM) == tonumber(GETNUM) then
 database:del(bot_id..'SADD:NUM'..msg.chat_id_..msg.sender_user_id_)
 database:del(bot_id.."GAME:TKMEN" .. msg.chat_id_ .. "" .. msg.sender_user_id_)   
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_,5)  
-send(msg.chat_id_, msg.id_,' *⟐︙مبروك فزت ويانه وخمنت الرقم الصحيح*\n *⟐︙تم اضافة { 5 } من النقاط* \n')
+send(msg.chat_id_, msg.id_,' *☆:مبروك فزت ويانه وخمنت الرقم الصحيح*\n *☆:تم اضافة { 5 } من النقاط* \n')
 elseif tonumber(NUM) ~= tonumber(GETNUM) then
 database:incrby(bot_id..'SADD:NUM'..msg.chat_id_..msg.sender_user_id_,1)
 if tonumber(database:get(bot_id..'SADD:NUM'..msg.chat_id_..msg.sender_user_id_)) >= 3 then
 database:del(bot_id..'SADD:NUM'..msg.chat_id_..msg.sender_user_id_)
 database:del(bot_id.."GAME:TKMEN" .. msg.chat_id_ .. "" .. msg.sender_user_id_)   
-send(msg.chat_id_, msg.id_,' *⟐︙اوبس لقد خسرت في اللعبه* \n *⟐︙حظآ اوفر في المره القادمه* \n *⟐︙كان الرقم الذي تم تخمينه { '..GETNUM..' }*')
+send(msg.chat_id_, msg.id_,' *☆:اوبس لقد خسرت في اللعبه* \n *☆:حظآ اوفر في المره القادمه* \n *☆:كان الرقم الذي تم تخمينه { '..GETNUM..' }*')
 else
-send(msg.chat_id_, msg.id_,' *⟐︙اوبس تخمينك غلط* \n *⟐︙ارسل رقم تخمنه مره اخرى* ')
+send(msg.chat_id_, msg.id_,' *☆:اوبس تخمينك غلط* \n *☆:ارسل رقم تخمنه مره اخرى* ')
 end
 end
 end
@@ -270,7 +270,7 @@ if text == 'خمن' or text == 'التخمين' then
 if database:get(bot_id..'Lock:Games'..msg.chat_id_) then
 Num = math.random(1,20)
 database:set(bot_id.."GAMES:NUM"..msg.chat_id_,Num) 
-send(msg.chat_id_, msg.id_,'\n ⟐︙اهلا بك عزيزي في لعبة التخمين :\nٴ━━━━━━━━━━\n'..' ⟐︙ملاحظه لديك { 3 } محاولات فقط فكر قبل ارسال تخمينك \n\n'..' ⟐︙سيتم تخمين عدد ما بين ال {1 و 20} اذا تعتقد انك تستطيع الفوز جرب واللعب الان ؟ ')
+send(msg.chat_id_, msg.id_,'\n ☆:اهلا بك عزيزي في لعبة التخمين :\nٴ━━━━━━━━━━\n'..' ☆:ملاحظه لديك { 3 } محاولات فقط فكر قبل ارسال تخمينك \n\n'..' ☆:سيتم تخمين عدد ما بين ال {1 و 20} اذا تعتقد انك تستطيع الفوز جرب واللعب الان ؟ ')
 database:setex(bot_id.."GAME:TKMEN" .. msg.chat_id_ .. "" .. msg.sender_user_id_, 100, true)  
 return false  
 end
@@ -280,16 +280,16 @@ if database:get(bot_id.."SET:GAME" .. msg.chat_id_ .. "" .. msg.sender_user_id_)
 if text and text:match("^(%d+)$") then
 local NUM = text:match("^(%d+)$")
 if tonumber(NUM) > 6 then
-send(msg.chat_id_, msg.id_," ⟐︙عذرا لا يوجد سواء { 6 } اختيارات فقط ارسل اختيارك مره اخرى\n")
+send(msg.chat_id_, msg.id_," ☆:عذرا لا يوجد سواء { 6 } اختيارات فقط ارسل اختيارك مره اخرى\n")
 return false  end 
 local GETNUM = database:get(bot_id.."Games:Bat"..msg.chat_id_)
 if tonumber(NUM) == tonumber(GETNUM) then
 database:del(bot_id.."SET:GAME" .. msg.chat_id_ .. "" .. msg.sender_user_id_)   
-send(msg.chat_id_, msg.id_,' *⟐︙مبروك فزت وطلعت المحيبس بل ايد رقم* { '..NUM..' }\n *⟐︙لقد حصلت على { 3 }من نقاط يمكنك استبدالهن برسائل* ')
+send(msg.chat_id_, msg.id_,' *☆:مبروك فزت وطلعت المحيبس بل ايد رقم* { '..NUM..' }\n *☆:لقد حصلت على { 3 }من نقاط يمكنك استبدالهن برسائل* ')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_,3)  
 elseif tonumber(NUM) ~= tonumber(GETNUM) then
 database:del(bot_id.."SET:GAME" .. msg.chat_id_ .. "" .. msg.sender_user_id_)   
-send(msg.chat_id_, msg.id_,' *⟐︙للاسف لقد خسرت* \n *⟐︙المحيبس بل ايد رقم* { '..GETNUM..' }\n *⟐︙حاول مره اخرى للعثور على المحيبس*')
+send(msg.chat_id_, msg.id_,' *☆:للاسف لقد خسرت* \n *☆:المحيبس بل ايد رقم* { '..GETNUM..' }\n *☆:حاول مره اخرى للعثور على المحيبس*')
 end
 end
 end
@@ -302,8 +302,8 @@ TEST = [[
 *➀       ➁     ➂      ➃      ➄     ➅
 ↓      ↓     ↓      ↓     ↓     ↓   
 👊 ‹•› 👊 ‹•› 👊 ‹•› 👊 ‹•› 👊 ‹•› 👊
-⟐︙اختر لأستخراج المحيبس الايد التي تحمل المحيبس 
- ⟐︙الفائز يحصل على { 3 } من النقاط *
+☆:اختر لأستخراج المحيبس الايد التي تحمل المحيبس 
+ ☆:الفائز يحصل على { 3 } من النقاط *
 ]]
 send(msg.chat_id_, msg.id_,TEST)
 database:setex(bot_id.."SET:GAME" .. msg.chat_id_ .. "" .. msg.sender_user_id_, 100, true)  
@@ -344,7 +344,7 @@ name = string.gsub(name,'🕒','🕒🕒🕒🕒🕒🕒🕓🕒🕒🕒')
 name = string.gsub(name,'🕤','🕥🕥🕥🕥🕥🕤🕥🕥🕥')
 name = string.gsub(name,'⌛️','⏳⏳⏳⏳⏳⏳⌛️⏳⏳')
 name = string.gsub(name,'📅','📆📆📆📆📆📆📅📆📆')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يدز الاختلاف* » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يدز الاختلاف* » {'..name..'}')
 return false
 end
 end
@@ -352,7 +352,7 @@ end
 if text == ''..(database:get(bot_id..':Set:Moktlf'..msg.chat_id_) or '')..'' then 
 if not database:get(bot_id..'Set:Moktlf:Bot'..msg.chat_id_) then 
 database:del(bot_id..':Set:Moktlf'..msg.chat_id_)
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ المختلف }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ المختلف }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Moktlf:Bot'..msg.chat_id_,true)
@@ -377,7 +377,7 @@ name = string.gsub(name,'88','8+80=')
 name = string.gsub(name,'50','30+20=')
 name = string.gsub(name,'10','2+8=')
 name = string.gsub(name,'19','6+13=')
-send(msg.chat_id_, msg.id_,' *⟐︙حل المسأله الرياضيه*  » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:حل المسأله الرياضيه*  » {'..name..'}')
 return false
 end
 end
@@ -385,7 +385,7 @@ end
 if text == ''..(database:get(bot_id..':Set:Ryadeat'..msg.chat_id_) or '')..'' then 
 if not database:get(bot_id..'Set:Ryadeat:Bot'..msg.chat_id_) then 
 database:del(bot_id..':Set:Ryadeat'..msg.chat_id_)
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ رياضيات }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ رياضيات }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Ryadeat:Bot'..msg.chat_id_,true)
@@ -409,7 +409,7 @@ name = string.gsub(name,'اعلم','I know')
 name = string.gsub(name,'تمساح','crocodile')
 name = string.gsub(name,'مختلف','Different')
 name = string.gsub(name,'ذكي','Intelligent')
-send(msg.chat_id_, msg.id_,' *⟐︙ترجم الكلمات الاتيه*  » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:ترجم الكلمات الاتيه*  » {'..name..'}')
 return false
 end
 end
@@ -417,7 +417,7 @@ end
 if text == ''..(database:get(bot_id..':Set:English'..msg.chat_id_) or '')..'' then 
 if not database:get(bot_id..'Set:English:Bot'..msg.chat_id_) then 
 database:del(bot_id..':Set:English'..msg.chat_id_)
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ `انكليزي` }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ `انكليزي` }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:English:Bot'..msg.chat_id_,true)
@@ -449,7 +449,7 @@ name = string.gsub(name,'شهر','امشي__ولا تعبر نهر')
 name = string.gsub(name,'شكه','يامن تعب يامن__يا من على الحاضر لكة')
 name = string.gsub(name,'القرد','__بعين امه غزال')
 name = string.gsub(name,'يكحله','اجه___عماها')
-send(msg.chat_id_, msg.id_,' *⟐︙اسرع واحد يكمل المثل* » {'..name..'}')
+send(msg.chat_id_, msg.id_,' *☆:اسرع واحد يكمل المثل* » {'..name..'}')
 return false
 end
 end
@@ -457,7 +457,7 @@ end
 if text == ''..(database:get(bot_id..'Set:Amth'..msg.chat_id_) or '')..'' then 
 if not database:get(bot_id..'Set:Amth:Bot'..msg.chat_id_) then 
 database:del(bot_id..'Set:Amth'..msg.chat_id_)
-send(msg.chat_id_, msg.id_,' *⟐︙الف مبروك لقد فزت* \n *⟐︙للعب مره اخره ارسل »{ امثله }*')
+send(msg.chat_id_, msg.id_,' *☆:الف مبروك لقد فزت* \n *☆:للعب مره اخره ارسل »{ امثله }*')
 database:incrby(bot_id..'NUM:GAMES'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 database:set(bot_id..'Set:Amth:Bot'..msg.chat_id_,true)
@@ -465,23 +465,23 @@ end
 if text == 'تعطيل الالعاب' and Manager(msg) then   
 if database:get(bot_id..'Lock:Games'..msg.chat_id_)  then
 database:del(bot_id..'Lock:Games'..msg.chat_id_) 
-Text = '\n *⟐︙تم تعطيل الالعاب*' 
+Text = '\n *☆:تم تعطيل الالعاب*' 
 else
-Text = '\n *⟐︙بالتاكيد تم تعطيل الالعاب*'
+Text = '\n *☆:بالتاكيد تم تعطيل الالعاب*'
 end
 send(msg.chat_id_, msg.id_,Text) 
 end
 if text == 'تفعيل الالعاب' and Manager(msg) then  
 if not database:get(bot_id..'Lock:Games'..msg.chat_id_)  then
 database:set(bot_id..'Lock:Games'..msg.chat_id_,true) 
-Text = '\n *⟐︙تم تفعيل الالعاب*' 
+Text = '\n *☆:تم تفعيل الالعاب*' 
 else
-Text = '\n *⟐︙بالتاكيد تم تفعيل الالعاب*'
+Text = '\n *☆:بالتاكيد تم تفعيل الالعاب*'
 end
 send(msg.chat_id_, msg.id_,Text) 
 end
 
 end
 return {
-Peland = games
+Poyka = games
 }
