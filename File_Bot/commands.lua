@@ -119,7 +119,7 @@ Text = [[
 *⟐︙ نسبه الحب*
 *⟐︙ ءall*
  *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -157,7 +157,7 @@ Text = [[
 *⟐︙ وصف*
 *⟐︙ تكرار + عدد*
  *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -206,7 +206,7 @@ Text = [[
 *⟐︙ امر *
 *⟐︙ الاوامر المضافه*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -257,7 +257,7 @@ Text = [[
 *⟐︙ تغير امر الاوامر*
 *⟐︙ تغير امر م1 ~ الئ م10*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -326,7 +326,7 @@ Text = [[
 *⟐︙ نسبه الكره*
 *⟐︙ نسبه الانوثه*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -385,7 +385,7 @@ Text = [[
 *⟐︙ رفع + تنزيل ← الحاته*
 *⟐︙ تاك للحاتات*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -419,7 +419,7 @@ Text = [[
 *⟐︙ اذاعه* 
 *⟐︙ ردود المطور *
  *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -506,7 +506,7 @@ Text = [[
 *⟐︙ تنظيف المشتركين*
 *⟐︙ تنظيف الكروبات*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban )
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban )
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -540,7 +540,7 @@ Text = [[
 *⟐︙ شنو رئيك بهاي بالرد*
 *⟐︙ تحب هذا*
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝙔𝙎•⊰ⵧⵧⵧⵧⵧⵧ𓍻 *
-[@@Yousef_Labban ](t.me/@@Yousef_Labban_Labban)
+[@Yousef_Labban ](t.me/Yousef_Labban_Labban)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
