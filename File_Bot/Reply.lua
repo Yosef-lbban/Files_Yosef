@@ -6,8 +6,52 @@ TextReply = 'هـلاوات يحات مـسيوو وايد💘😻'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'شلونكم' then
-TextReply = 'تـمـام عمࢪيي نتا ڪيفڪ💘💋'
+TextReply = 'هـلاوات يحات مـسيوو وايد💘😻'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م1' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == م2' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م3' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م4' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م5' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م6' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م7' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م8' then
+TextReply = 'عمࢪࢪيي ارسل الاوامر'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'م9' then
+TextReply = 'عمࢪࢪ ارسل الاوامر'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
